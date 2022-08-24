@@ -19,6 +19,29 @@ export default function App(props) {
         withNormalizeCSS
         theme={{
           colorScheme: "light",
+          colors: {
+            primaryText: "#100B00",
+            secondaryColor: "#eaf2d7",
+            tertiaryColor: "#5A8672",
+            brand: [
+              "#a8bbcb",
+              "#93aabe",
+              "#7d98b0",
+              "#6787a3",
+              "#517696",
+              "#3c6589",
+              "#26547c",
+            ],
+          },
+          primaryColor: "brand",
+          primaryShade: { light: 5, dark: 8 },
+          breakpoints: {
+            sm: 640,
+            md: 768,
+            lg: 1024,
+            xl: 1280,
+            xxl: 1536,
+          },
         }}
       >
         <Component {...pageProps} />

@@ -1,10 +1,13 @@
 import Head from "next/head"
 import Image from "next/image"
+import Home from "../components/home/Home"
+import Editor from "../components/editor/Editor"
 
-export default function Home() {
+export default function Index() {
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <Home />
+      <Editor />
+    </>
   )
 }
