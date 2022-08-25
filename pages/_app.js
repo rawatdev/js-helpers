@@ -35,12 +35,17 @@ export default function App(props) {
           },
           primaryColor: "brand",
           primaryShade: { light: 5, dark: 8 },
+          spacing: {
+            sm: 4,
+            md: 8,
+            lg: 12,
+            xl: 16,
+          },
           breakpoints: {
             sm: 640,
             md: 768,
             lg: 1024,
             xl: 1280,
-            xxl: 1536,
           },
         }}
       >
