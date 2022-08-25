@@ -6,6 +6,7 @@ import Navbar from "../navbar/Navbar"
 import About from "../about/About"
 import useStyles from "./homeStyle"
 import Community from "../community/Community"
+import Announcement from "../announcement/Announcement"
 
 const Home = () => {
   const { classes } = useStyles()
@@ -17,6 +18,7 @@ const Home = () => {
       <Features />
       <About />
       <Community />
+      <Announcement />
     </div>
   )
 }
